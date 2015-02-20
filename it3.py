@@ -5,6 +5,7 @@ import sys
 
 if sys.version_info < (3, 0, 0):
 	print("Python3 required")
+	exit()
 
 def fsa(n):
 	A = 1
